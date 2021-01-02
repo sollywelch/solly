@@ -165,93 +165,63 @@
 	
 	<!-- Section -- pricing -->
 
-	<!-- <div class="section__content section__content--fluid-width section__content--padding">
+	<div class="section__content section__content--fluid-width section__content--padding">
 		<h2 class="section__title section__title--centered">Pricing</h2>
 	<div class="section__description section__description--centered">
 	Are you ready to take your business to the next level? 
 	</div>
 
+	<section class="section" id="pricing">
 
-			<section class="section" id="pricing">
-
-				<div class="section__content section__content--fluid-width section__content--padding">
-						<h2 class="section__title section__title--centered">Our Plans</h2>
-					<div class="section__description section__description--centered">
-					We believe we have created the most efficient SaaS landing page for your users. Landing page with features that will convince you to use it for your SaaS business.
-					</div>
-					
-						
-						<div class="pricing">
-							<div class="pricing__plan">
-								<h3 class="pricing__title">Pay As You Go</h3>   
-								<div class="pricing__values">
-									<div class="pricing__value pricing__value--show"><span>$</span>40 / <span>£</span> 30<b>/ month</b></div>
-								</div>	
-								<ul class="pricing__list">
-									<li><b>1</b> User Account</li>
-									<li><b>10</b> Team Members</li>
-									<li><b>Unlimited</b> Emails Accounts</li>	
-									<li>Set And Manage Permissions</li>
-									<li>Set And Manage Permissions</li>
-									<li class="disabled">API &amp; extension support</li>	
-									<li class="disabled">Developer support</li>
-									 <li class="disabled">A / B Testing</li>			
-								</ul> 
-
-								<a class="pricing__signup" href="">Sign up</a>
-							</div>
-							<div class="pricing__plan pricing__plan--popular">
-									 <div class="pricing__badge-bg"></div>
-								 <div class="pricing__badge-text">Most Popular</div>
-								<h3 class="pricing__title">All In One</h3>       
-								<div class="pricing__values">
-									<div class="pricing__value pricing__value--show"><span>$</span>65 / <span>£</span> 50<b>/ month</b></div>
-								</div>
-								<ul class="pricing__list">
-									<li><b>50</b> User Account</li>
-									<li><b>500</b> Team Members</li>
-									<li><b>Unlimited</b> Emails Accounts</li>	
-									<li>Set And Manage Permis sions</li>
-									<li>API &amp; extension support</li>	
-									<li>Developer support</li>
-									 <li class="disabled">A / B Testing</li>		
-								</ul> 
-								<a class="pricing__signup" href="">Sign up</a>
-
-							
-							</div>
-							<div class="pricing__plan">
-								<h3 class="pricing__title">Custom</h3>       
-								<div class="pricing__values">
-									<div class="pricing__value pricing__value--show"><span>Please Inquire</b></div>
-									</div>
-								<ul class="pricing__list">
-									<li><b>Unlimited</b> User Account</li>
-									<li><b>Unlimited</b> Team Members</li>
-									<li><b>Unlimited</b> Emails Accounts</li>	
-									<li>Set And Manage Permissions</li>
-									<li>API &amp; extension support</li>	
-									<li>Developer support</li>
-									 <li>A / B Testing</li>
+			<div class="section__content section__content--fluid-width section__content--padding">
+			        <h2 class="section__title section__title--centered"></h2>
+				<div class="section__description section__description--centered">
 				
-								</ul>
-								
-								<div class="pricing__values pricing__list">
-									
-
-									<div id="paypal-button-container"></div>
-
-									<a class="pricing__signup" href="https://py.pl/2SwMpMrN0jQ">Sign up</a>
-								
+				</div>
+					
+					<div class="pricing">
+						
+						<div class="pricing__plan pricing__plan--popular">
+							<h3 class="pricing__title">Argon SMS</h3>       
+							<div class="pricing__values">
+								<div class="pricing__value pricing__value--show"><span>$</span>30<b>/ month</b></div>
 							</div>
-							</div> 	
+							<ul class="pricing__list">
+								<li><b>Unlimited</b> Users</li>
+								<li><b>Includes</b> Server Hosting</li>
+								<li><b>Developer</b> Updates &amp; Support</li>	
+								<li>Full Scalability</li>		
+							</ul> 						
+						<div class="pricing__values pricing__list">
+							<div id="paypal-button-container"></div>
+							<script src="https://www.paypal.com/sdk/js?client-id=Aeza1I_4dtRUqZVoLCUjUhRSHf_i4mMC3n_nMVcWPc8tRfYUlWDuiC64rirU6ffbJsjaL_GxoFAt4vz4&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+							<script>
+							paypal.Buttons({
+								style: {
+									shape: 'pill',
+									color: 'blue',
+									layout: 'vertical',
+									label: 'subscribe'
+								},
+								createSubscription: function(data, actions) {
+									return actions.subscription.create({
+									'plan_id': 'P-5DP86446VB432305YL7WNDHA'
+									});
+								},
+								onApprove: function(data, actions) {
+									alert(data.subscriptionID);
+								}
+							}).render('#paypal-button-container');
+							</script>
+						</div>
 						
 						</div>
-					
-					<div class="clear"></div>
-				</div>
-			
-		</section> -->
+
+						</div>
+						
+					</div>
+				
+			</div>
 
 
 <!-- Spline Animation -->
